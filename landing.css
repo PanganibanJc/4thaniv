@@ -7,6 +7,8 @@
 
 @media screen and (max-width: 480px) {
   body {
+    color: white;
+    font-family: "Open-sans-custom", sans-serif;
     background-image: url("IMG_1071.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -17,11 +19,26 @@
     justify-content: center;
   }
 
-  .icons-container {
-    margin-top: 100px;
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon-title-container {
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+  }
+
+  .icons-container {
+    margin-top: 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 65px;
     justify-content: center;
     align-items: center;
   }

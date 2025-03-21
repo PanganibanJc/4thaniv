@@ -1,0 +1,68 @@
+@font-face {
+  font-family: "Open-sans-custom";
+  src: url(OpenSans-Regular.ttf) format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    color: rgb(29, 29, 29);
+    font-family: "Open-sans-custom", sans-serif;
+    background-color: rgb(255, 255, 255);
+    /* background-image: url("IMG_1071.jpg"); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .icon-title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+  }
+
+  .album-container {
+    /* z-index: -1;
+    background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .notes-container {
+    width: 170px;
+    height: 170px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .gallery-container {
+    width: 170px;
+    height: 170px;
+
+    display: flex;
+    justify-content: center;
+  }
+  img {
+    border-radius: 10px;
+    width: 160px;
+  }
+}
